@@ -17,7 +17,7 @@
 ---
 -->
 
-- ### 1.) Promises
+- ###  Promises
 
 <div align="center">
   
