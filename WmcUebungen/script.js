@@ -10,8 +10,6 @@ function startDarkmode() {
 
   console.log("- swapped to darkmode\n  + removed button & label");
 }
-
-
 function startLightmode() {
   document.body.style.backgroundColor = 'white';
   header.style.color = 'black';
@@ -21,12 +19,34 @@ function startLightmode() {
 
   trainingsContainer.style.backgroundColor = '#555';
   trainingsContainer.style.color = '#111';
- 
+
   console.log("- swapped to lightmode\n  + removed button & label");
 }
 
 
-function runCode(){
-  const greeting = "Hello Jan";
-  console.log(greeting);
+function runCode() {
+
+  const promise = new Promise((resolve, reject) => {
+    setTimeout(() => {
+      if (getRandomBool()) {
+        resolve("resolved!!")
+      } else {
+        reject("rejected!")
+      }
+    }, 1000)
+  })
+
+  function getRandomBool() {
+    return Math.random() < 0.5
+  }
+
+  promise.then((message) => {
+    console.log(`The promis finally ${message}`)
+  }).catch((message) => {
+    console.log(`The promis finally ${message}`)
+  })
 }
+
+
+
+
