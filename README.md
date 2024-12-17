@@ -21,7 +21,7 @@
 
 <div align="center">
   
-  <img src ="./img/05.png" alt="example" width=80%>
+  <img src ="./img/05.png" alt="example" width=100%>
 </div>
 
  
