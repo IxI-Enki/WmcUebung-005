@@ -1,12 +1,12 @@
 ###### <p align="center"> WmcUebung-005 </p>
 
-<!--
 - ### *To test my javascript skills i first made myself a "playground environment"*:
 <div align="center">
   
   <img src ="./img/exampleB.png" alt="example" width=80%>
 </div>
 
+<!--
 ---
 - ## *Overview of the .html "playground"-file*
 <div align="center">
@@ -22,3 +22,5 @@
 
 ---
 -->
+
+- ### 1.) Promises
