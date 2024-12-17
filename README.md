@@ -1,7 +1,7 @@
-###### <p align="center"> WmcUebung-004 </p>
+###### <p align="center"> WmcUebung-005 </p>
 
+<!--
 - ### *To test my javascript skills i first made myself a "playground environment"*:
-
 <div align="center">
   
   <img src ="./img/exampleB.png" alt="example" width=80%>
@@ -21,3 +21,4 @@
 </div>
 
 ---
+-->
