@@ -71,7 +71,7 @@ button {
 
   width: 100%;
   height: 21rem;
-  background-color: #555;
+  background-color: rgba(15,17,22,1);
   visibility: visible;
 }
 
